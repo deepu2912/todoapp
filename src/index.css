@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.red-square {
+  background-color: #7036ea;
+  width: 500px;
+  min-height: 300px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.a {
+  list-style-type: circle;
+  width: 400px;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 19px;
+  position: absolute;
+}
